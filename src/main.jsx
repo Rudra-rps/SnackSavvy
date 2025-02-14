@@ -7,7 +7,7 @@ import Hello from './components/Hello.jsx'
 import About from './components/About.jsx'
 import Bikaner from './components/Bikaner.jsx'
 import Haldiram from './components/haldiram.jsx'
-
+import Data from './Data.jsx'
 createRoot(document.getElementById('root')).render(
   
     <BrowserRouter>
@@ -17,6 +17,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/about" element={<About />} />
       <Route path="/bikaner" element={<Bikaner />} />
       <Route path="/haldiram" element={<Haldiram />} />
+      
     </Routes>
   </BrowserRouter>
  

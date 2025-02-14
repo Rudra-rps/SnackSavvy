@@ -71,7 +71,7 @@ function App() {
         
             <div className="favorite-item">
             <img src={butterChicken} alt="Dish 1" className='favorite-img'/>
-                <p>Butter Chicken</p>
+                <p >Butter Chicken</p>
             </div>
             <div className="favorite-item">
                 <img src={masalaDosa} alt="Dish 2" className="favorite-img"/>

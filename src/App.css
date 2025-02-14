@@ -656,3 +656,7 @@ body {
   z-index: 10; /* Ensures the overlay is above all other content */
   cursor: pointer; /* Changes the cursor to indicate it's clickable */
 }
+
+.favorite-item p{
+  color: black;
+}
