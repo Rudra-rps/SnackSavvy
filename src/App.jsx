@@ -11,6 +11,7 @@ import rajmaChawal from "/rajma-chawal.jpeg"
 import collections from "../src/assets/collections.png"
 
 import { FaRobot, FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const aiBtn = document.getElementById("ai-btn");
         const aiTooltipPara = document.getElementById("ai-tooltip");
@@ -20,14 +21,14 @@ function App() {
       <header>
         <nav className="navbar">
             <div className="navbar-left">
-              <a href="https://www.figma.com/proto/QTBwZBsQALjd7IuATllklk/Get-the-app?node-id=1-2&p=f&t=XFhq6dDSuialH74T-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" className="navbar-item">Get the App</a>
+              <Link to="https://www.figma.com/proto/QTBwZBsQALjd7IuATllklk/Get-the-app?node-id=1-2&p=f&t=XFhq6dDSuialH74T-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" className="navbar-item">Get the App</Link>
             </div>
             <div className="navbar-right">
-              <a href="/about" className="navbar-item">About Us</a>
-              <a href="/hello" className="navbar-item">Add restaurant</a>
+              <Link to="/about" className="navbar-item">About Us</Link>
+             
               
-              <a href="#" className="navbar-item">Log in</a>
-              <a href="#" className="navbar-item">Sign up</a>
+              <Link to="#" className="navbar-item">Log in</Link>
+              <Link to="#" className="navbar-item">Sign up</Link>
             </div>
           </nav>
           
@@ -58,7 +59,7 @@ function App() {
       </select>
       <i className="fa-solid fa-magnifying-glass search-icon"></i>
       <input type="text" className="search-input" placeholder="Search here" />
-      <a href="/haldiram" class="search-button"> Go </a>
+      <Link to="/haldiram" class="search-button"> Go </Link>
     </div>
             
         </div>
@@ -123,44 +124,44 @@ function App() {
         <div className="footer-column">
           <h3>What's New</h3>
           <ul>
-            <li><a href="#">Latest Deals</a></li>
-            <li><a href="#">New Restaurants</a></li>
-            <li><a href="#">AI Price Comparison</a></li>
-            <li><a href="#">Smart Recommendations</a></li>
-            <li><a href="#">Partner with Us</a></li>
+            <li><a to="#">Latest Deals</a></li>
+            <li><a to="#">New Restaurants</a></li>
+            <li><a to="#">AI Price Comparison</a></li>
+            <li><a to="#">Smart Recommendations</a></li>
+            <li><a to="#">Partner with Us</a></li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h3>Food Aggregators</h3>
           <ul>
-            <li><a href="https://www.zomato.com/">Zomato</a></li>
-            <li><a href="https://www.swiggy.com/">Swiggy</a></li>
-            <li><a href="https://www.ubereats.com">Uber Eats</a></li>
-            <li><a href="https://www.dominos.co.in/">Domino's</a></li>
-            <li><a href="https://mcdindia.com/">McDonald's</a></li>
+            <li><a to="https://www.zomato.com/">Zomato</a></li>
+            <li><a to="https://www.swiggy.com/">Swiggy</a></li>
+            <li><a to="https://www.ubereats.com">Uber Eats</a></li>
+            <li><a to="https://www.dominos.co.in/">Domino's</a></li>
+            <li><a to="https://mcdindia.com/">McDonald's</a></li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h3>Support</h3>
           <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Report an Issue</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li><a to="#">FAQs</a></li>
+            <li><a to="#">Help Center</a></li>
+            <li><a to="#">Report an Issue</a></li>
+            <li><a to="#">Privacy Policy</a></li>
+            <li><a to="#">Terms of Service</a></li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h3>Company</h3>
           <ul>
-            <li><a href="#">About SnackSavvy</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Investors</a></li>
+            <li><a to="#">About SnackSavvy</a></li>
+            <li><a to="#">Our Team</a></li>
+            <li><a to="#">Careers</a></li>
+            <li><a to="#">Press</a></li>
+            <li><a to="#">Investors</a></li>
           </ul>
         </div>
       </div>
@@ -172,11 +173,11 @@ function App() {
           <span>Consumer Health Privacy</span>
         </div>
         <div className="right">
-          <a href="#">Contact Us</a>
-          <a href="#">Privacy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">Trademarks</a>
-          <a href="#">About Our Ads</a>
+          <a to="#">Contact Us</a>
+          <a to="#">Privacy</a>
+          <a to="#">Terms of Use</a>
+          <a to="#">Trademarks</a>
+          <a to="#">About Our Ads</a>
           <span>© 2025 SnackSavvy</span>
         </div>
       </div>
