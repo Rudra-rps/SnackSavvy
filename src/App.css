@@ -396,6 +396,175 @@ footer {
   cursor: pointer;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.about-us-title {
+  text-align: center; /* Center-align the heading */
+  font-size: 3.5rem; /* Adjust the font size */
+  margin: 50px 0; /* Spacing above and below the heading */
+  color: black; /* Optional: Give it a distinctive color */
+  font-weight: bold;
+}
+
+.about-us {
+  position: relative;
+  height: 100vh; /* Ensure it fills the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  padding: 50px;
+  overflow: hidden;
+}
+
+.about-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/Pic.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(30%); /* Reduce the brightness of the background image */
+  z-index: 1; /* Make sure the background image is behind the content */
+}
+
+.about-us .content {
+  position: relative;
+  z-index: 2; /* Ensure text is above the background */
+  color: white;
+  width: 85%; /* Set width to 85% */
+  max-width: 1000px; /* Optional: Set a maximum width for large screens */
+  background: rgba(0, 0, 0, 0.6); /* Optional: Adds a semi-transparent background to make text more readable */
+  padding: 30px; /* Added padding for spacing inside the content */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  margin: 0 auto; /* Center the content horizontally */
+  margin-top: -280px;
+}
+
+.about-us h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.about-us .btn {
+  margin-top: 30px;
+  display: inline-block;
+  background-color: #ff4d00;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-us .btn:hover {
+  background-color: #e03e00;
+}
+
+.cofounders-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.cofounder-card {
+  display: flex;
+  align-items: center;
+  width: 80%; /* Cards occupy 80% of the page width */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+  margin: 0 30px; /* Margin from the page corners */
+}
+
+.cofounder-card:hover {
+  transform: translateY(-5px);
+}
+
+.cofounder-card.align-left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cofounder-card.align-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.cofounder-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.kaartikey {
+  background-image: url("./assets/Kaartikey.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sanidhya {
+  background-image: url("./assets/Sanidhya.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rudra {
+  background-image: url(./assets/Rudra.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.atharva {
+  background-image: url(./assets/Atharva.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cofounder-info {
+  flex: 1;
+}
+
+.cofounder-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cofounder-info p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 .food:hover {
   transition: 400ms;
   translate: 50px;
