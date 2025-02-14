@@ -6,7 +6,7 @@ import App from './App.jsx'
 import Hello from './components/Hello.jsx'
 import About from './components/About.jsx'
 import Bikaner from './components/Bikaner.jsx'
-import Haldiram from './components/haldiram.jsx'
+import Haldiram from './components/Haldiram.jsx'
 
 createRoot(document.getElementById('root')).render(
   
