@@ -26,7 +26,7 @@ function App() {
               <a href="/about" className="navbar-item">About Us</a>
               <a href="/hello" className="navbar-item">Add restaurant</a>
               
-              <a href="/login" className="navbar-item">Log in</a>
+              <a href="#" className="navbar-item">Log in</a>
               <a href="#" className="navbar-item">Sign up</a>
             </div>
           </nav>
