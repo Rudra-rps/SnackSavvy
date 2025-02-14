@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 export default function Haldiram() {
     return (
@@ -16,10 +17,10 @@ export default function Haldiram() {
                     <div class="rajkachori-pic pic"></div>
                     <div class="rajkachori-text txt"><p>Raj Kachori</p></div>
                 </div>
-                <a href="/bikaner"><div class="cholebhature food">
+                <Link to="/bikaner"><div class="cholebhature food">
                     <div class="cholebhature-pic pic"></div>
                     <div class="cholebhature-text txt"><p>Chole Bhature</p></div>
-                </div></a>
+                </div></Link>
                 <div class="rabdi food">
                     <div class="rabdi-pic pic"></div>
                     <div class="rabdi-text txt"><p>Rabdi</p></div>
