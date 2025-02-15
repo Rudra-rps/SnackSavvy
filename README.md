@@ -7,6 +7,8 @@ SnackSavvy helps users find the best food prices across multiple platforms like 
 ### 🔹 Food Price Comparison
 - Compare prices of popular dishes across Zomato, Swiggy, and UberEats.
 - Get **discount offers** to find the best deal.
+- Search for a restaurant like **Haldiram’s** and get a pop-up menu of available dishes.
+- Clicking on a dish (e.g., **Chole Bhature**) leads to an **AI-based price calculation page**, then to a **Figma preview** of the final order page.
 
 ### 🔹 User Authentication
 - **Signup & Login** with credentials.
@@ -21,6 +23,10 @@ SnackSavvy helps users find the best food prices across multiple platforms like 
   - "Where is the cheapest Butter Chicken?"
   - "What’s the best food to try today?"
   - "Can you show my order history?"
+
+### 🔹 Team Information & Mobile App Preview
+- Clicking **“About Us”** opens a page with details about the **four team members**.
+- Clicking **“Get the App”** opens a **Figma preview** of how the mobile app’s **cover page** would look.
 
 ### 🔹 Restaurant Suggestions
 - Coming soon: Get **restaurant ratings & reviews** based on price & quality.
