@@ -359,6 +359,7 @@ footer {
   font-size: 25px;
   font-weight: 600;
   transform: scale(1.15);
+  color: black;
 }
 
 .container {
