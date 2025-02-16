@@ -135,11 +135,11 @@ function App() {
         <div className="footer-column">
           <h3>Food Aggregators</h3>
           <ul>
-            <li><a to="https://www.zomato.com/">Zomato</a></li>
-            <li><a to="https://www.swiggy.com/">Swiggy</a></li>
-            <li><a to="https://www.ubereats.com">Uber Eats</a></li>
-            <li><a to="https://www.dominos.co.in/">Domino's</a></li>
-            <li><a to="https://mcdindia.com/">McDonald's</a></li>
+            <li><Link to="https://www.zomato.com/">Zomato</Link></li>
+            <li><Link to="https://www.swiggy.com/">Swiggy</Link></li>
+            <li><Link to="https://www.ubereats.com">Uber Eats</Link></li>
+            <li><Link to="https://www.dominos.co.in/">Domino's</Link></li>
+            <li><Link to="https://mcdindia.com/">McDonald's</Link></li>
           </ul>
         </div>
 
