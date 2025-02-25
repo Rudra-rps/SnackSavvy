@@ -37,7 +37,7 @@ export default function About(){
   <div class="cofounder-card align-left">
     <div class="cofounder-image rudra"></div>
     <div class="cofounder-info">
-      <h2>Rudra Singh</h2>
+      <h2>Rudra Pratap Singh</h2>
       <p>A first-year B.Tech student at VIPS, IPU, New Delhi, with a strong interest in web development and Java programming, complemented by hands-on problem-solving experience on platforms like LeetCode. Skilled in video editing and graphic design, leveraging tools such as Photoshop, Canva, Figma, and DaVinci Resolve. </p> <p>Proficient in foundational programming languages and web technologies, including C, HTML, CSS, and Java. Dedicated to combining creative and technical skills to deliver innovative solutions.</p>
     </div>
   </div>
